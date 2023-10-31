@@ -1,54 +1,160 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Test Page</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
-  <!-- <style>
-    body {
-      background-image: url('jazera.jpeg');
-    }
-
-   </style> -->
-</head>
-<body>
-  <p>this is is the first collaboration test</p>
-  <div class="container mt-4">
-    <table class="table">
-        <thead>
-            <tr>
-                <th>#</th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>web part</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Abdirahim</td>
-                <td>abdirahim4ever@gmail.com</td>
-                <td>header</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>ali abdi</td>
-                <td>ali.com</td>
-                <td>about page</td>
-            </tr>
-           
-        </tbody>
-    </table>
-</div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>First Collaboration</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
   
+   <nav class="navbar navbar-expand-md ">
+    <!--Brand name-->
+      <a class="navbar-brand" href="#" id="logo"><img src="jazera.jpeg" alt="" width="60px">First <span>Collaboration</span></a>
+          <!-- Toggler/collapsible Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+         </button>
+
+
+        <!--nav link-->
+     <div class="collapse navbar-collapse" id="navbarNav">
+     <ul class="navbar-nav ml-auto">
+       <li class="nav-item active">
+         <a class="nav-link" href="#">Home</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#about">About</a>
+       </li>
+       <li class="nav-item">
+       
+       <li class="nav-item">  
+         <a class="nav-link" href="#contact">Contact</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link disabled" href="#"></a>
+       </li>
+     </ul>
+     <form class="form-inline my-2 my-lg-0">
+       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+     </form>
+   </div>
+ </nav>
+
+<!--Header-->
+ <header class="jumbotron jumbotron-fluid">
+   <div class="container text-center">
+     <h1 class="display-4">Welcome to First Collaborations  Page</h1>
+     <p class="lead">  First Collaborations  </p>
+   </div>
+ </header>
+
+ <!--about--> 
+ <div id="about" class="py-3">
+  <div class="container">
+    <h2 class="text-center mb-4">About Me</h2>
+   
+  </div>
+</div>
+
+<!--Image--> 
+<section id="projects" class="bg-light py-4">
+  <div class="container"  style="background-color: #abdac6;">
+    <h2 class="text-center mb-4">IMAGES</h2>
+    <div class="row">
+     <!--Image One--> 
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="image.png" class="card-img-top" alt="first student">
+          <div class="card-body">
+            <h5 class="card-title"> name</h5>
+            
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+  <!--Image two--> 
+
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="image.png" class="card-img-top" alt="first student">
+          <div class="card-body">
+            <h5 class="card-title"> name</h5>
+            
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+  <!--Image Three--> 
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="image.png" class="card-img-top" alt="first student">
+          <div class="card-body">
+            <h5 class="card-title"> name</h5>
+            
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+<!-- contact -->
+<section id="contact" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Me</h2>
+    <div class="row">
+      <div class="col-md-8">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <!-- Contact Information -->
+      <div class="col-md-4 py-3 py-md-0">
+        <h4>Contact Information</h4>
+      
+        <ul class="list-unstyled">
+          <li><i class="fas fa-envelope"></i>Email</li><br>
+          <li><i class="fas fa-phone"></i>+252</li>
+         
+         
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- footer -->
+ <footer class="bg-dark text-white py-4">
+  <div class="container text-center">
+    <p>&copy; 2023  All rights reserved.</p>
+  </div>
+  </footer>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 
 
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
