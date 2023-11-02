@@ -12,7 +12,98 @@
 
   <!-- header div -->
   <header>
+     <!-- navbar sections -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-1 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand"><img src="./spondius logo.jpeg" alt="page logo" width="100" height="100" style="border: 2px double black"></a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar collapse container -->
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page">Home</a>
+              </li>
     
+              <li class="nav-item">
+                <a href="#" class="nav-link">Members</a>
+              </li>
+    
+              <li class="nav-item">
+                <a href="#" class="nav-link">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Instructors</a>
+              </li>
+    
+              <li class="nav-item">
+                <a href="#" class="nav-link" data-bs-target="#enroll" data-bs-toggle="modal">Sign Up</a>
+              </li>
+          </ul>
+         
+        </div>
+  
+      </div>
+
+    </nav>
+
+      <!-- Showcase -->
+      <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container showcase">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning"> Full-Stack Web Developer </span></h1>
+            <p class="lead my-4">
+              No prior IT knowlegde needed. Learn HTML, CSS, Java Scrip, Java, Angular and React all under
+              one year Diploma Course and start working.
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Sign Up Now
+            </button>
+          </div>
+
+          <!-- courser for the showcase -->
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+            
+              <div class="carousel-item active">
+                <img src="./student (1).jpeg"  width="500" height="500" class="d-block w-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./student (2).jpeg"  width="500" height="500" class="d-block w-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./student (3).jpeg"  width="500" height="500" class="d-block w-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./student (4).jpeg"  width="500" height="500" class="d-block w-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./student (5).jpeg"  width="500" height="500" class="d-block w-auto" alt="...">
+              </div>
+             
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+
   </header>
 
   <main>
