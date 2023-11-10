@@ -1,3 +1,5 @@
+
+i
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,28 +8,273 @@
 
   <title>Full-Stack student page</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+
+</head>
  <body>
+  
+   
+ <!-- header div --> <!-- header div --> <!-- header div -->
+  <!-- header div -->
+  <header>
+     <!-- navbar sections -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-1 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand"><img src="./images2/spondius logo.jpeg" alt="page logo" width="100" height="100" style="border: 2px double black"></a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar collapse container -->
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page">Home</a>
+              </li>
+    
+              <li class="nav-item">
+                <a href="#" class="nav-link">Student List</a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="#" class="nav-link">Profiles</a>
+              </li>
+    
+    
+              <li class="nav-item">
+                <a href="#" class="nav-link">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Instructors</a>
+              </li>
+    
+              <li class="nav-item">
+                <a href="#" class="nav-link" data-bs-target="#enroll" data-bs-toggle="modal">Sign Up</a>
+              </li>
+          </ul>
+         
+        </div>
+  
+      </div>
 
+    </nav>
+
+      <!-- Showcase -->
+      <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container showcase">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning"> Full-Stack Web Developer </span></h1>
+            <p class="lead my-4">
+              No prior IT knowlegde needed. Learn HTML, CSS, Java Scrip, Java, Angular and React all under
+              one year Diploma Course and start working.
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Sign Up Now
+            </button>
+          </div>
+
+          <!-- courser for the showcase -->
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+            
+              <div class="carousel-item active">
+                <img src="./images2/student (1).jpeg"  width="500" height="500" class="d-block w-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images2/student (2).jpeg"  width="500" height="500" class="d-block w-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images2/student (3).jpeg"  width="500" height="500" class="d-block w-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images2/student (4).jpeg"  width="500" height="500" class="d-block w-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images2/student (5).jpeg"  width="500" height="500" class="d-block w-auto" alt="...">
+              </div>
+             
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Modal for sign -up -->
+  <div
+  class="modal fade"
+  id="enroll"
+  tabindex="-1"
+  aria-labelledby="enrollLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Fill out this form and we will get back to you</p>
+        <form>
+          <div class="mb-3">
+            <label for="first-name" class="col-form-label">
+              First Name:
+            </label>
+            <input type="text" class="form-control" id="first-name" />
+          </div>
+          <div class="mb-3">
+            <label for="last-name" class="col-form-label">Last Name:</label>
+            <input type="text" class="form-control" id="last-name" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="col-form-label">Email:</label>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="col-form-label">Phone:</label>
+            <input type="tel" class="form-control" id="phone" />
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-dismiss="modal"
+        >
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   
+
+  </header>
+
+<div class="container mt-5">
+  <h2 style="font-family: 'Times New Roman', Times, serif;font-weight: bolder; "><u>Members</u></h2>
+  <table class="table table-hover">
+    <thead class="table table-dark">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Tell</th>
+        <th>Gmail</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>PGFS_1</td>
+        <td>Farhan Mohamed Iman</td>
+        <td>+252615622909</td>
+        <td><a href="https://gmail.google.com/farhanfantastic5@gmail.com">farhanfantastic5@gmail.com</a></td>
+        <td><a href="index.html">Click Here More Info</a></td>
+      </tr>
+      <tr>
+        <td>PGFS_2</td>
+        <td>Farhan Mohamed Iman</td>
+        <td>+252615622909</td>
+        <td><a href="https://gmail.google.com/farhanfantastic5@gmail.com">farhanfantastic5@gmail.com</a></td>
+        <td><a href="index.html">Click Here More Info</a></td>
+      </tr>
+      <tr>
+        <td>PGFS_3</td>
+        <td>Farhan Mohamed Iman</td>
+        <td>+252615622909</td>
+        <td><a href="https://gmail.google.com/farhanfantastic5@gmail.com">farhanfantastic5@gmail.com</a></td>
+        <td><a href="index.html">Click Here More Info</a></td>
+      </tr>
+      <tr>
+        <td>PGFS_4</td>
+        <td>Farhan Mohamed Iman</td>
+        <td>+252615622909</td>
+        <td><a href="https://gmail.google.com/farhanfantastic5@gmail.com">farhanfantastic5@gmail.com</a></td>
+        <td><a href="index.html">Click Here More Info</a></td>
+      </tr>
+      <tr>
+        <td>PGFS_5</td>
+        <td>Farhan Mohamed Iman</td>
+        <td>+252615622909</td>
+        <td><a href="https://gmail.google.com/farhanfantastic5@gmail.com">farhanfantastic5@gmail.com</a></td>
+        <td><a href="index.html">Click Here More Info</a></td>
+      </tr>
+      <tr>
+        <td>PGFS_6</td>
+        <td>Farhan Mohamed Iman</td>
+        <td>+252615622909</td>
+        <td><a href="https://gmail.google.com/farhanfantastic5@gmail.com">farhanfantastic5@gmail.com</a></td>
+        <td><a href="index.html">Click Here More Info</a></td>
+      </tr>
+      <tr>.
+        <td>PGFS_7</td>
+        <td>Farhan Mohamed Iman</td>
+        <td>+252615622909</td>
+        <td><a href="https://gmail.google.com/farhanfantastic5@gmail.com">farhanfantastic5@gmail.com</a></td>
+        <td><a href="index.html">Click Here More Info</a></td>
+      </tr>
+      <tr>
+        <td>PGFS_8</td>
+        <td>Farhan Mohamed Iman</td>
+        <td>+252615622909</td>
+        <td><a href="https://gmail.google.com/farhanfantastic5@gmail.com">farhanfantastic5@gmail.com</a></td>
+        <td><a href="index.html">Click Here More Info</a></td>
+      </tr>
+      <tr>
+        <td>PGFS_9</td>
+        <td>Farhan Mohamed Iman</td>
+        <td>+252615622909</td>
+        <td><a href="https://gmail.google.com/farhanfantastic5@gmail.com">farhanfantastic5@gmail.com</a></td>
+        <td><a href="index.html">Click Here More Info</a></td>
+      </tr>
+      <tr>
+        <td>PGFS_10</td>
+        <td>Farhan Mohamed Iman</td>
+        <td>+252615622909</td>
+        <td><a href="https://gmail.google.com/farhanfantastic5@gmail.com">farhanfantastic5@gmail.com</a></td>
+        <td><a href="index.html">Click Here More Info</a></td>
+      </tr>
+    </tbody>
+
+  </table>
+
+</div>
   <main>
-   <!-- Our Menu Start -->
-<section class="Dishes" id="Dishes">
-  <h3>members</h3>
-  <h2>group members <i class="fa-solid fa-arrow-down"></i></h2>
-  <div class="row" style="margin-top: 15px;">
-
-    <div class="col-md-3 py-3 py-md-0">
-      <div class="card">
-        <img src="img/Abdirahim1.png" alt="">
-        <div class="card-body">
-          <h3>Abdirahim</h3>
-          <h6>Abdirahim Dhiblawe.</h6>
-          <div class="star text-center">
-            <i class="bx bxs-star checked"></i>
-            <i class="bx bxs-star checked"></i>
-            <i class="bx bxs-star checked"></i>
-            <i class="bx bxs-star checked"></i>
-            <i class="bx bxs-star checked"></i>
-           </div>
+    <!-- card container -->
+    <div class="container mt-5">
+     <h2 class="text-center text-dark py-5">geet</h2>
+     <div class="row row-cols-lg-4 g-1">
+       
+       <div class="col-4">
+         <div class="card" style="min-width: 100px; height: auto;">
+           <h2 class="card-header" style="background-color: darkgrey; color: aliceblue; margin-bottom: 0.25rem;">Hassan Awale</h2>
+           <img class="card-img-top" src="./image/hasan.jpg" alt="profile card">
+           <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quisquam illo doloremque sequi, praesentium velit aliquam in saepe architecto distinctio dolore impedit ullam laborum quod? Ut id reprehenderit unde hic.</div>
+           <a style="margin-top:0.5rem;" href="#"><button class="btn btn-primary">Learn More</button></a>
+         </div>
+       </div>
 
           <p> <i class="fa-solid fa-credit-card"></i></p>
         </div>
@@ -148,7 +395,118 @@
 </section>
 
   <!-- Learn Sections -->
+
+ <!-- start footer-->
  
+ <style>
+        
+  footer{
+      display: flex;
+      justify-content: space-between;
+      padding: 1vw 8vw;
+      background-color: rgb(4, 197, 71);
+      align-items: flex-start;
+      flex-wrap: wrap;
+      text-align: center;
+  }
+  
+  footer h3{
+      color: blue;
+      text-transform: capitalize;
+  }
+  
+  footer h1:hover{
+      background-color: aliceblue;
+      color: #000;
+  }
+  
+  footer li{
+      list-style: none;
+      font-size: 16px;
+      text-transform: capitalize;
+  }
+  
+  
+  .FllowUs h3{
+      font-size: 20px;
+      text-transform: capitalize;
+      color: blue;
+      margin-bottom: 28px;
+  }
+  .subsceribe a{
+      color: #080808;
+      font-size: 35px;
+      text-decoration: none;
+  }
+  
+  .subsceribe a:hover{
+      color: #f90303;
+  }
+  
+  .subsceribe input{
+      cursor: pointer;
+  }
+  
+  .socialmedia{
+  color: #f7f1f1;
+  cursor: pointer;
+  }
+  
+  ion-icon{
+      color: red;
+      font-size: 35px;
+  }
+  .fb{
+      color: blue;
+  }
+  
+  .tik{
+      color: brown;
+  }
+  
+      </style>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      
+      <footer>
+          <div class="col-3">
+              <h3>Instructors</h3>
+              <li>Empty</li>
+         
+          </div>
+          <div class="col-3">
+              <h3>Members</h3>
+              <li> Get more infor </li>
+             
+          </div>
+          <div class="col-3">
+              <h3>Course</h3>
+              <li>HTML & CSS3</li>
+              <li>jScript</li>
+              
+          </div>
+          
+          <div class="col-3">
+              <div class="FllowUs">
+                  <h3>fallow us</h3>
+                  <div class="socialmedia">
+                  <a href="#"><ion-icon class="fb" name="logo-facebook"></ion-icon></i></a>
+                  <a href="#"><ion-icon class="youtube" name="logo-youtube"></ion-icon></a>
+                  <a href="#"><ion-icon class="tik" name="logo-tiktok"></ion-icon></a>
+                  </div>
+                  <div class="subsceribe">
+              <input type="text" class="btn" placeholder="Enter your Email" >
+              <a href="">subsceribe</a>
+          </div>
+              </div>
+  
+          </div>
+      </footer>
+  </body>
+  </html>
+  </body>
+  </html>
+ <!--end footer-->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
 </body>
