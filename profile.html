@@ -25,7 +25,7 @@
         <div class="collapse navbar-collapse" id="nav">
           <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a href="#" class="nav-link active" aria-current="page">Home</a>
+                <a href="index.html" class="nav-link active" aria-current="page">Home</a>
               </li>
     
               <li class="nav-item">
@@ -111,7 +111,60 @@
     </section>
 
       <!-- Modal for sign -up -->
-
+  <div
+  class="modal fade"
+  id="enroll"
+  tabindex="-1"
+  aria-labelledby="enrollLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Fill out this form and we will get back to you</p>
+        <form>
+          <div class="mb-3">
+            <label for="first-name" class="col-form-label">
+              First Name:
+            </label>
+            <input type="text" class="form-control" id="first-name" />
+          </div>
+          <div class="mb-3">
+            <label for="last-name" class="col-form-label">Last Name:</label>
+            <input type="text" class="form-control" id="last-name" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="col-form-label">Email:</label>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="col-form-label">Phone:</label>
+            <input type="tel" class="form-control" id="phone" />
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-dismiss="modal"
+        >
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
    
@@ -133,7 +186,7 @@
           <div class="card-body">
             <h3>Another Person</h3>
             <h6>Frontend Developer</h6>
-            <a href="https://www.example2.com" target="_blank" class="btn btn-primary" style="text-decoration: none; color: white; text-align: center; float: right;">more</a>
+            <a href="https://www.example2.com" target="_blank" class="btn btn-primary" style="text-decoration: none;  color: white; float: right;">more</a>
           </div>
         </div>
       </a>
@@ -145,7 +198,7 @@
         <div class="card-body">
           <h3>Nor Mohamed</h3>
           <h6>full stack web Developer.</h6>
-          <a href="https://norkisma.github.io/MyPortfolio/home.html#" target="_blank" class="btn btn-primary" style="text-decoration: none; color: white; text-align: center; float: right;">more</a>
+          <a href="https://norkisma.github.io/MyPortfolio/home.html#" target="_blank" class="btn btn-primary" style="text-decoration: none;  color: white; float: right;">more</a>
         </div>
       </div>
     </div>
@@ -155,7 +208,7 @@
         <div class="card-body">
           <h3>Abdinasir</h3>
           <h6>full stack web Developer.</h6>
-          <a href="https://www.example2.com" target="_blank" class="btn btn-primary" style="text-decoration: none; color: white; text-align: center; float: right;">more</a>
+          <a href="https://www.example2.com" target="_blank" class="btn btn-primary" style="text-decoration: none;   color: white; float: right;">more</a>
         </div>
       </div>
     </div>
@@ -167,7 +220,7 @@
         <div class="card-body">
           <h3>Farhaan Mohamed</h3>
           <h6>full stack web Developer.</h6>
-          <a href="https://www.example2.com" target="_blank" class="btn btn-primary" style="text-decoration: none; color: white; text-align: center; float: right;">more</a>
+          <a href="https://www.example2.com" target="_blank" class="btn btn-primary" style="text-decoration: none;  color: white; float: right;">more</a>
           
             
             </div>
@@ -180,7 +233,7 @@
         <div class="card-body">
           <h3>Ahmed-nor Mohamud</h3>
           <h6>full stack web Developer.</h6>
-          <a href="https://www.example2.com" target="_blank" class="btn btn-primary" style="text-decoration: none; color: white; text-align: center; float: right;">more</a>
+          <a href="https://www.example2.com" target="_blank" class="btn btn-primary" style="text-decoration: none;  color: white; float: right;">more</a>
         </div>
       </div>
     </div>
@@ -190,7 +243,7 @@
         <div class="card-body">
           <h3>Abdirahim Dhiblawe</h3>
           <h6>full stack web Developer.</h6>
-          <a href="https://abdirahim-sys.github.io/my_resume/" target="_blank" class="btn btn-primary" style="text-decoration: none; color: white; text-align: center;float: right;">more</a>
+          <a href="https://abdirahim-sys.github.io/my_resume/" target="_blank" class="btn btn-primary" style="text-decoration: none;  color: white; float: right;">more</a>
         </div>
       </div>
     </div>
@@ -202,7 +255,7 @@
         <div class="card-body">
           <h3>Abdirahman Abdulahi</h3>
           <h6>full stack web Developer.</h6>
-          <a href="https://wardhereprofile.netlify.app/" target="_blank" class="btn btn-primary" style="text-decoration: none; color: white; text-align: center ;float: right;">more</a>
+          <a href="https://www.example2.com" target="_blank" class="btn btn-primary" style="text-decoration: none;  color: white; float: right;"">more</a>
         </div>
       </div>
     </div>
@@ -300,19 +353,24 @@
           </div>
           
           <div class="col-4">
-            <H3>SING UP </H3> 
+            <H3>Help </H3>
+            <a style="color: white; text-decoration: none;" href="">Support</a><br>
+            <a style="color: white; text-decoration: none;" href="">Sign Up</a><br>
+            <a style="color: white; text-decoration: none;" href="">Sign In </a>
+           
           </div>
           
           <div class="col-4">
-            <ul>
-              <h2>SOCIAL MEDIA LINKS</h2>
-              <li><a href="#"><ion-icon id="face" style="color: blue;" name="logo-facebook" ></ion-icon></a></li>
+            <h2>SOCIAL MEDIA LINKS</h2>
+            <ul style="display: inline-flex;">
+              <li><a href="#"><ion-icon id="face" style="color: blue;" name="logo-facebook" ></ion-icon></a></li>&nbsp;&nbsp;
               <!-- <li><a href="#"><ion-icon id="tk"  name="logo-tiktok"></ion-icon></a></li> -->
-              <li><a href="#"><ion-icon id="whapp" style="color: green;"  name="logo-whatsapp"></ion-icon></a></li>
-              <li><a href="#"><ion-icon id="ytube" style="color: red;"  name="logo-youtube"></ion-icon></a></li><br>
-              <p>&copy; 2023-2024 School Website All rights reserved.</p>
+              <li><a href="#"><ion-icon id="whapp" style="color: green;"  name="logo-whatsapp"></ion-icon></a></li>&nbsp;&nbsp;
+              <li><a href="#"><ion-icon id="ytube" style="color: red;"  name="logo-youtube"></ion-icon></a></li>&nbsp;&nbsp;
+              <li><a href="https://abdirahim-sys.github.io/first-collaboration-sys-/"><ion-icon id="ytube" style="color: rgb(249, 249, 249);"  name="logo-github"></ion-icon></a></li><br>
+           
             </ul>
-  
+            <p>&copy; 2023-2024 first-collaboration-sys- All rights reserved.</p>
           </div>
       </footer>
   </body>
